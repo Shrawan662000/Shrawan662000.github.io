@@ -40,7 +40,7 @@ const experience = [
         duration: "March 2024 - Present",
         achievements: [
             "Develop and deploy end-to-end AI solutions across various domains, including designing and implementing deep learning models such as Transformers",
-            " Working with cross-functional teams to ensure alignment on project goals and deliverables",
+            "Working with cross-functional teams to ensure alignment on project goals and deliverables",
             "Developed and tested over 5 GenAI Proof of Concepts (POCs), covering various model types and frameworks.",
             "Containerized applications with Docker and deployed on Azure for scalable and efficient cloud operations."
         ]
