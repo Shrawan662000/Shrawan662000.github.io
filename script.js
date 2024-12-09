@@ -257,7 +257,7 @@ const latestItems = [
     },
     {
         title: "Content Writer AI Agent",
-        description: "We are exploring and implementing AI agents using CrewAI tools, where we defining task and their corrosponding agents",
+        description: "We are exploring and implementing AI agents using CrewAI tools, where we defined the tasks and their corrosponding agents",
         link: "https://github.com/Shrawan662000/AI-Agents-Crew-AI-",
         type: "Project"
     }
