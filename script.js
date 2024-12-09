@@ -67,30 +67,18 @@ const mediumArticles = [
         image: "https://miro.medium.com/v2/resize:fit:720/format:webp/0*UOZCizELgJy-gHsw"
     },
     {
-        title: "Fine-tuning LLMs for Natural Language to SQL Query Generation Using Synthetic Data: A Comprehensive Guide for Beginners",
-        description: "we’ll explore how to fine-tune Large Language Models (LLMs) to generate SQL queries from natural language inputs. This process, known as Natural Language to SQL (NL2SQL), is a powerful tool that allows non-technical users to interact with databases using everyday language. We’ll break down each step of the process, explaining key concepts and providing detailed instructions to help you understand and implement your own NL2SQL system.",
-        link: "https://medium.com/towards-artificial-intelligence/fine-tuning-llms-for-natural-language-to-sql-query-generation-using-synthetic-data-a-comprehensive-38afdafc90b0",
-        image: "https://via.placeholder.com/300x200.png?text=Synthetic+Data"
+        title: "Flask API for Data Scientist",
+        description: " It's comprehensive and provides a clear overview of creating a Flask API, including the usage of HTTP methods like GET and POST, and the nuances of running Flask applications in both development and production environments.",
+        link: "https://medium.com/@shrawan662000/flask-api-for-data-scientist-fcbe26da641e",
+        image: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*9CtZ7DV7J2zxyqDti-0j7w.png"
     },
     {
-        title: "Fine-Tuning Phi-3 with Unsloth for Superior Performance on Custom Data",
-        description: "Phi-3, a powerful large language model (LLM) from Microsoft AI, holds immense potential for various tasks. But to truly unlock its potential for your specific needs, fine-tuning on your custom data is crucial. This article delves into using Unsloth, a cutting-edge library, to streamline the fine-tuning process of Phi-3 for your unique dataset",
-        link: "https://medium.com/towards-artificial-intelligence/fine-tuning-phi-3-with-unsloth-for-superior-performance-on-custom-data-2c14b3c1e90b",
-        image: "https://via.placeholder.com/300x200.png?text=Unsloth"
-    },
-    {
-        title: "Supercharge Your Workflow: Unlocking Advanced Concepts of Microsoft Autogen",
-        description: "Autogen — a powerful AI framework designed to enhance productivity through automation. Intrigued, he begins with the basics, creating a simple assistant that can help draft code snippets and manage mundane tasks. But as he delves deeper, AK discovers a wealth of advanced features that promise to revolutionize his workflow.",
-        link: "https://medium.com/towards-artificial-intelligence/supercharge-your-workflow-unlocking-advanced-concepts-of-microsoft-autogen-e572cb20078d",
-        image: "https://via.placeholder.com/300x200.png?text=AGENT+AUTOGEN"
-    },
-    {
-        title: "Building a SQL Agent Using CrewAI and Ollama: A Comprehensive Guide",
-        description: "SQL (Structured Query Language) remains the backbone of database management and manipulation, allowing for precise data querying and retrieval. However, constructing and executing SQL queries, especially complex ones, can be a time-consuming and error-prone task. Enter the realm of AI-powered automation with CrewAI and Ollama, tools designed to streamline and enhance database operations through intelligent agents.This article will take you on a detailed journey to create a sophisticated SQL agent using CrewAI and Ollama. We will cover everything from the initial setup and database preparation to the implementation of SQL tools, defining agents, creating tasks, and executing the entire process. Whether you’re a database developer, data analyst, or a technical enthusiast, this guide will equip you with the knowledge and tools to build an efficient SQL agent.",
-        link: "https://medium.com/@mauryaanoop3/building-a-sql-agent-using-crewai-and-ollama-a-comprehensive-guide-1ad089610056",
-        image: "https://via.placeholder.com/300x200.png?text=CREWAI+Ollama"
+        title: "Generative AI: Zero to Hero",
+        description: "The article highlights how Generative AI, particularly through LangChain, is transforming industries by enabling the creation of advanced applications. LangChain’s modular components support a wide array of functionalities, ranging from document analysis to chatbot creation, ultimately improving business outcomes and user experiences.",
+        link: "https://medium.com/@shrawan662000/generative-ai-zero-to-hero-eda44b17bf72",
+        image: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*0awb2JfyWSrlTBdTzIZmng.jpeg"
     }
-];
+]
 
 // Function to create project cards
 function createProjectCards() {
@@ -256,33 +244,21 @@ const articles = [
 
 const latestItems = [
     {
-        title: "Building Your Own Generative Search Engine for Local Files Using Open-Source Models 🧐📂",
-        description: "A comprehensive guide on creating a generative search engine for local files using open-source models, FAISS, and sentence transformers.",
-        link: "https://medium.com/towards-artificial-intelligence/building-your-own-generative-search-engine-for-local-files-using-open-source-models-b09af871751c",
+        title: "Natural Language Processing — All In One",
+        description: "An Beginner Introduction, about Natural Language Processing with code",
+        link: "https://medium.com/@shrawan662000/natural-language-processing-all-in-one-a0f29ea4ef15",
         type: "Article"
     },
     {
-        title: "Building Your Own Generative Search Engine for Local Files Using Open-Source Models 🧐📂:Part-2",
-        description: "A sequel to the first article, focusing on enhancing the generative search engine with visual capabilities using the LLaVA model.",
-        link: "https://medium.com/towards-artificial-intelligence/building-your-own-generative-search-engine-for-local-files-using-open-source-models-part-2-4e869f62a9ee",
-        type: "Article"
-    },
-    {
-        title: "Fine-Tuning BERT for Phishing URL Detection: A Beginner's Guide",
-        description: "A guide on fine-tuning BERT for the specific task of phishing URL detection, covering essential concepts and providing a comprehensive example using Python.",
-        link: "https://medium.com/towards-artificial-intelligence/fine-tuning-bert-for-phishing-url-detection-a-beginners-guide-619fad27db41",
-        type: "Article"
-    },
-    {
-        title: "GPT-2 Tokenizer from Scratch",
-        description: "An implementation of the GPT-2 tokenizer from scratch, demonstrating the inner workings of this crucial component in natural language processing.",
-        link: "https://github.com/imanoop7/GPT-2-Tokenizer-from-Scratch",
+        title: "Hands on LLMs",
+        description: "We are exploring and implementing various techniques in Natural Language Processing (NLP) and Large Language Models (LLMs), including tokenization, embeddings, transformers, text classification, clustering, prompt engineering, advanced generation methods, multimodal models, text embeddings, and fine-tuning.",
+        link: "https://github.com/Shrawan662000/Hands-on-LLMs",
         type: "Project"
     },
     {
-        title: "Generative Search Engine For Local Files",
-        description: "An AI-powered document search and question-answering system that allows users to explore and extract information from their local documents using natural language queries.",
-        link: "https://github.com/imanoop7/Generative-Search-Engine-For-Local-Files",
+        title: "Content Writer AI Agent",
+        description: "We are exploring and implementing AI agents using CrewAI tools, where we defining task and their corrosponding agents",
+        link: "https://github.com/Shrawan662000/AI-Agents-Crew-AI-",
         type: "Project"
     }
 ];
