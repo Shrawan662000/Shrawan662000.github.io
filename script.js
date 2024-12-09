@@ -35,14 +35,25 @@ const projects = [
 // Professional experience data
 const experience = [
     {
-        company: "TCS",
+        company: "SAG Infotech Pvt. Ltd.",
         role: "Data Scientist & AI Engineer",
-        duration: "October 2021 - Present",
+        duration: "March 2024 - Present",
         achievements: [
-            "Led the development and deployment of three innovative GenAI projects on AWS and Azure, reducing customer support inquiries by 20% and increasing customer satisfaction by 15%.",
-            "Built and deployed two AI/ML models into production on AWS Cloud, including a CNN image classification model with 90% accuracy and a web scraping solution automating data extraction from 100+ websites daily.",
-            "Developed and tested over 20 GenAI Proof of Concepts (POCs), covering various model types and frameworks.",
-            "Demonstrated proficiency in both AWS and Azure cloud environments, optimizing services and managing cloud architecture."
+            "Develop and deploy end-to-end AI solutions across various domains, including designing and implementing deep learning models such as Transformers",
+            " Working with cross-functional teams to ensure alignment on project goals and deliverables",
+            "Developed and tested over 5 GenAI Proof of Concepts (POCs), covering various model types and frameworks.",
+            "Containerized applications with Docker and deployed on Azure for scalable and efficient cloud operations."
+        ]
+    },
+    {
+        company: "Celebal Technologies",
+        role: "Associate Data Scientist",
+        duration: "April 2023 - Dec 2023",
+        achievements: [
+            "Developed end-to-end machine learning models, including data scraping, cleaning from scratch, for custom use cases",
+            "Integrating the trained model with various APIs for testing, integration, and deployment purposes",
+            "Streamlined hiring processes with AI-driven candidate selection, resume recommendation, and avatar-based interviews using Azure Logic Apps.",
+            "Developed an email classification and automated response system leveraging GPT-4 and AzureOpenAI for personalized replies."
         ]
     }
 ];
@@ -50,10 +61,10 @@ const experience = [
 // Medium articles data
 const mediumArticles = [
     {
-        title: "Running Ollama on Google Colab (Free Tier): A Step-by-Step Guide",
-        description: "An Beginner Introduction, how to install Ollama on Google Colab.",
-        link: "https://medium.com/towards-artificial-intelligence/running-ollama-on-google-colab-free-tier-a-step-by-step-guide-9ef74b1f8f7a",
-        image: "https://via.placeholder.com/300x200.png?text=ollama"
+        title: "Natural Language Processing — All In One",
+        description: "An Beginner Introduction, about Natural Language Processing with code",
+        link: "https://medium.com/@shrawan662000/natural-language-processing-all-in-one-a0f29ea4ef15",
+        image: "https://miro.medium.com/v2/resize:fit:720/format:webp/0*UOZCizELgJy-gHsw"
     },
     {
         title: "Fine-tuning LLMs for Natural Language to SQL Query Generation Using Synthetic Data: A Comprehensive Guide for Beginners",
